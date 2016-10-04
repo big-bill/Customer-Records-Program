@@ -2,20 +2,20 @@
 					C++ II Final Project
 
 	Write a program that uses a structure to store the following information about a customer account:
-	ï	Name
-	ï	Address
-	ï	City, state, ZIP
-	ï	Telephone number
-	ï	Account Balance
-	ï	Date of last payment
+	‚Ä¢	Name
+	‚Ä¢	Address
+	‚Ä¢	City, state, ZIP
+	‚Ä¢	Telephone number
+	‚Ä¢	Account Balance
+	‚Ä¢	Date of last payment
 
 	The structure should be used to store customer account records to a file. The program should have a menu that lets the user perform the following operations:
-	ï	Enter new records to a file
-	ï	Search for a particular customerís record and display it
-	ï	Search for a particular customerís record and change it
-	ï	Search for a particular customerís record and delete it
-	ï	Display the contents of the entire file
-	The specifications also asked for ìat leastî two classes.
+	‚Ä¢	Enter new records to a file
+	‚Ä¢	Search for a particular customer‚Äôs record and display it
+	‚Ä¢	Search for a particular customer‚Äôs record and change it
+	‚Ä¢	Search for a particular customer‚Äôs record and delete it
+	‚Ä¢	Display the contents of the entire file
+	The specifications also asked for ‚Äúat least‚Äù two classes.
 
 	Written by Andrew Smith and Billy Matthews, April 2016.
 */
@@ -188,10 +188,6 @@ void searchRecord(CustomerAccount acc) {
 	long length = 0;
 	long recordNum = 0;
 
-	std::string x;
-	std::cout << "Enter your name";
-	std::getline(std::cin, x);
-	std::cout << "Hello, " << x;
 
 	std::ifstream record("CustomerAccount.dat", std::ios::in | std::ios::binary);
 
