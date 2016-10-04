@@ -34,5 +34,6 @@ Project description:
 	
 	•	Display the contents of the entire file
 	
-	The specifications also asked for “at least” two classes.
+	
+The specifications also asked for “at least” two classes.
  
