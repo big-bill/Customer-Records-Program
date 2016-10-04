@@ -43,11 +43,11 @@ void userInput(struct CustomerAccount, long);
 const int NAME_SIZE = 32, ADDRESS_SIZE = 40, CITY_SIZE = 32, STATE_SIZE = 3, TELE_SIZE = 13, DATE_SIZE = 11;
 struct CustomerAccount {
 
-	char name[NAME_SIZE];		 //Holds the name of the customer
+	char name[NAME_SIZE];	     //Holds the name of the customer
 	char address[ADDRESS_SIZE];  //Holds the address of the customer
-	char state[STATE_SIZE];		 //Customer's current state
-	char city[CITY_SIZE];		 //Customer's current city
-	int zip;					 //Customer's zip
+	char state[STATE_SIZE];	     //Customer's current state
+	char city[CITY_SIZE];	     //Customer's current city
+	int zip;		     //Customer's zip
 	char telephone[TELE_SIZE];   //Customer's telephone number (EX: 555-555-5555)
 	double accountBalance;       //New customer's acccount balance (Can't be negative)
 	char lastPayment[DATE_SIZE]; //Date of the last payment
